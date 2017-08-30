@@ -14,30 +14,30 @@ public class Madgab
         for(int i = 0; i < input.length; i++)
         {
             if(input[i] == 'a')
-        {
-            sentence += getAdjective() + " ";
+            {
+                sentence += getAdjective() + " ";
+            }
+                else if(input[i] == 'b')
+                {
+                    sentence += getAdverb() + " ";
+                }
+                    else if(input[i] == 'v')
+                    {  
+                        sentence += getVerb() + " ";
+                    }
+                        else if(input[i] == 'n')
+                        {
+                        sentence += getNoun() + " ";
+                        }
+                            else if(input[i] == 't')
+                            {
+                                sentence += getArticle() + " ";
+                            }
         }
-            else if(input[i] == 'b')
-        {
-            sentence += getAdverb() + " ";
-        }
-            else if(input[i] == 'v')
-        {  
-            sentence += getVerb() + " ";
-        }
-            else if(input[i] == 'n')
-        {
-            sentence += getNoun() + " ";
-        }
-            else if(input[i] == 't')
-        {
-            sentence += getArticle() + " ";
-    }
-}
 
-System.out.println("Your sentence is:");
-System.out.println(sentence);
-}
+    System.out.println("Your sentence is:");
+    System.out.println(sentence);
+    }
 
     static void printInstructions()
     {
