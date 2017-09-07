@@ -1,11 +1,11 @@
 /******************************************************************************
  CLASS INFORMATION                                    * Score: ______________ *
  -----------------                                    *************************
-   Programmer: Scott Brady
+   Programmer: Caitlyn Brown
    Date Due:   8/26/2017
  ******************************************************************************/
 
-public class HelloWorld
+public class Caitlyn
 {
 	public static void main(String[] args)
 	{
