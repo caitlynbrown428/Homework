@@ -15,11 +15,11 @@ public class NegativeNumber
 
 		int num;
 		int sum = 0;
-		int largest = num;
-
+		int largest;
+	
 		System.out.println("Enter a positive number or a negative number to stop: ");
 		num = keyboard.nextInt();
-
+		largest = num;
 		while (num >= 0)
 		{
 			sum += num;
